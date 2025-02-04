@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1737759921 source:c:\users\noaman\desktop\ensem\s1\analyse et conception algorithmique\projet\blockchain\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<openssl/sha.h>
+	"src/helpful.c"
+	"src/blockchain.c"
+	"src/ledger.c"
+
+1737759672 c:\users\noaman\desktop\ensem\s1\analyse et conception algorithmique\projet\blockchain\src\blockchain.c
+	"merkleTree.c"
+	"../include/blockchain.h"
+
+1737670342 c:\users\noaman\desktop\ensem\s1\analyse et conception algorithmique\projet\blockchain\include\blockchain.h
+
+1737670871 c:\users\noaman\desktop\ensem\s1\analyse et conception algorithmique\projet\blockchain\include\merkletree.h
+	<openssl/sha.h>
+
+1737670135 c:\users\noaman\desktop\ensem\s1\analyse et conception algorithmique\projet\blockchain\src\helpful.c
+
+1737672014 c:\users\noaman\desktop\ensem\s1\analyse et conception algorithmique\projet\blockchain\src\merkletree.c
+	"../include/MerkleTree.h"
+
+1737743684 c:\users\noaman\desktop\ensem\s1\analyse et conception algorithmique\projet\blockchain\src\ledger.c
+	"../include/ledger.h"
+
+1737707609 c:\users\noaman\desktop\ensem\s1\analyse et conception algorithmique\projet\blockchain\include\ledger.h
+
