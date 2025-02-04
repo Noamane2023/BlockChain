@@ -48,8 +48,8 @@ int main()
     genesis_block = insertBlock(genesis_block, transactions3, 2);
 
     //Write and Read from binary files
-    writeLedger(genesis_block,"Noaman_Makhlouf.bin");
-    Block *SavedVersion = readLedger("Noaman_Makhlouf.bin");
+    writeLedger(genesis_block,"Noaman.bin");
+    Block *SavedVersion = readLedger("Noaman.bin");
     displayBlock(SavedVersion);
 
     return 0;
